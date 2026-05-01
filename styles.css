@@ -1,0 +1,130 @@
+@page {
+            size: A4;
+            margin: 0;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Helvetica', 'Arial', sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+        .sidebar {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 75mm;
+            height: 100%;
+            background-color: #4b0082;
+            color: white;
+            padding: 40px 25px;
+            box-sizing: border-box;
+            z-index: 10;
+        }
+        .main-content {
+            margin-left: 75mm;
+            padding: 50px 40px;
+            background-color: white;
+            min-height: 297mm;
+        }
+        .photo-placeholder {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            border: 5px solid white;
+            margin: 0 auto 30px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .circle-image {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover; /* Prevents distortion if the original is rectangular */
+        }
+
+        .section-header {
+            background-color: #4b0082;
+            color: white;
+            padding: 8px 15px;
+            font-size: 14pt;
+            font-weight: bold;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-radius: 2px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 32pt;
+            color: #222;
+            font-weight: 400;
+        }
+        h2.subtitle {
+            margin: 5px 0 30px 0;
+            font-size: 16pt;
+            color: #666;
+            font-weight: 400;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        h3.side-title {
+            font-size: 18pt;
+            margin-bottom: 20px;
+            border-bottom: 1px solid rgba(255,255,255,0.3);
+            padding-bottom: 8px;
+        }
+        .contact-info p {
+            margin: 12px 0;
+            font-size: 11pt;
+        }
+        .skill-item {
+            margin-bottom: 15px;
+            font-size: 11pt;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+            padding-bottom: 6px;
+        }
+        .job-block {
+            margin-bottom: 30px;
+        }
+        .job-title {
+            font-weight: bold;
+            font-size: 13pt;
+            color: #000;
+        }
+        .job-date {
+            color: #4b0082;
+            font-size: 11pt;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        .description {
+            font-size: 11.5pt;
+            text-align: justify;
+            margin: 0;
+        }
+        .edu-item {
+            font-size: 11.5pt;
+            margin-bottom: 15px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-left: 4px solid #4b0082;
+        }
+        .ref-item {
+            font-size: 11pt;
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #eee;
+            border-radius: 5px;
+        }
+        .ref-name {
+            font-weight: bold;
+            font-size: 12pt;
+            color: #4b0082;
+        }
+        .page-break {
+            display: block;
+            page-break-before: always;
+        }
