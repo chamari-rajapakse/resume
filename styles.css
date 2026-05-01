@@ -1,7 +1,5 @@
 
-:root{
-    --ff-p:'Playfair Display',serif;
-}
+
 @page {
     size: A4;
     margin: 0;
@@ -9,7 +7,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: var(--ff-p);
+    font-family: 'Helvetica', 'Arial', sans-serif;
     color: #333;
     line-height: 1.6;
 }
