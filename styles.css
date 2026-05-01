@@ -46,6 +46,7 @@ body {
     height: 130px;
     border-radius: 50%;
     object-fit: cover; /* Prevents distortion if the original is rectangular */
+}
 
 .section-header {
     background-color: #4b0082;
